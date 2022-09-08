@@ -33,7 +33,7 @@
       
       <div v-if="questCreat && exerCreats<10">
         <div style="border: 1px solid #23252f; border-radius: 7px; padding: 30px 30px; background-color: #282a36;">
-          <h4>Tens un màxim de 10 exercicis per crear</h4>
+          <h4 style="color: orangered; font-size: 20px;">Tens un màxim de 10 exercicis per crear o afegir</h4>
           <h4>Exercici {{exerCreats+1}}</h4>
         </div>
         <b-card
@@ -522,6 +522,15 @@ export default {
 
   mounted() {
       this.traureExercicis();
+      this.code = `#include <iostream>
+
+  int main() {
+    
+    
+    
+  return 0;
+  }`;
+  this.output ="";
   },
 
   

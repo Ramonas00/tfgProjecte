@@ -247,6 +247,16 @@ mounted() {
     this.getTutorial(this.$route.params.id);
     this.timeNeed = this.countdown;
 
+    this.code = `#include <iostream>
+
+    int main() {
+      
+      
+      
+    return 0;
+    }`;
+    this.output ="";
+
     const stopCountdown = setInterval(() => {
       this.countdown -= 1
       if (this.countdown == -1) clearInterval(stopCountdown)

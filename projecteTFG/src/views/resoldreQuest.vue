@@ -290,6 +290,16 @@ export default {
 mounted() {
     this.retrieveQuests();
     
+    this.code = `#include <iostream>
+
+    int main() {
+      
+      
+      
+    return 0;
+    }`;
+    this.output ="";
+
 
     const stopCountdown = setInterval(() => {
       this.countdown -= 1
