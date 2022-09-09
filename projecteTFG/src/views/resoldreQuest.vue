@@ -313,7 +313,7 @@ mounted() {
 watch: {
   output: function(value) {
     if (value == this.questCodis.codis[this.index].outputCode) {
-      this.message = "La resposta pot se correcta";
+      this.message = "La resposta pot ser correcta";
       this.allowc = true;
     }
     else {
